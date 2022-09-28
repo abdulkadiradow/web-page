@@ -10,11 +10,13 @@
   
 </head>
 <body>
+  <header>
    <h1>My Goals for the Year</h1>
 
-   <hr>
+   
 
-   <nav>
+   <nav aria-label="primary-navigation">
+   
     <ul>
       <li>
         <a href="#html">Learn HTML</a>
@@ -24,12 +26,17 @@
       </li>
     </ul>
    </nav>
+  </header>
    <hr>
-   <section id="html">
+   <main>
+   <article id="html">
 
    <h2>I'm Ready to Learn HTML</h2>
 
    <p>This is my first web page.</p> 
+   <section>
+
+    <h3>HTML5</h3>
 
 
    <img src="images/ball.jpg" width="400" height="255" 
@@ -43,6 +50,9 @@
     </p>
 
    </figure>
+  </section>
+  <section>
+  
 
 
    <H3>My Daily Schedule</H3>
@@ -56,17 +66,30 @@
     </abbr></li>
    
     </ol>
+    <aside>
+      <details>
+        <summary>Guess the <mark>number of hours</mark> i code per day</summary>
+        <p>I start at <time datetime="08:00"> 8 am</time> and 
+          i write code for <time datetime="PT3H">3 hours </time> 
+          every morning.</p>
+      </details>
+    </aside>
+
   </section>
+
+  </article>
+
 
     <hr>
 
 
-    <section id="vacation">
+    <article id="vacation">
 
    <h2>I'm  also planning a Vacation</h2>
    <p>I've been working hard and <em>really need a getaway.</em></p>
    <p>I live is <abbr title="Kansas">KS</abbr> so I want to visit a beach.</p>
-
+  
+   <section>
    <H3>Placess I'd like to visit</H3>
    <ul>
      <li><p>I've heard good things about the caribean.</p>
@@ -94,8 +117,10 @@
 
   </li>
   </ul>
+</section>
    
    <!--TODO  add more places  -->
+   <section>
    <H3>Places I want to avoid</H3>
   <dl>
        <dt>North Plole</dt>
@@ -107,16 +132,23 @@
     <dt>Mountain Tops</dt>
     <dd>These are also Cold.</dd>
   </dl>
-
 </section>
 
-   <hr>
+</article>
+</main>
 
+   <hr>
+   <footer>
+      <p>
    &lt;&lt;&lt; &copy; <a href="about.html">Abdulkadir Adow</a> 
    &gt;&gt;&gt;
    <p>
     <a href="#">Back to Top</a>
-   </p>
+  </p>
+
+  
+   
+  </footer>
   
 </body>
 </html>
